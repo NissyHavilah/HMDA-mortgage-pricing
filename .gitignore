@@ -1,5 +1,8 @@
-data/
-*.csv
-*.parquet
+# Large data stays on your computer only
+data/raw/
+data/interim/
+loan_purposes_*.csv
+
+# Jupyter and Python clutter
 .ipynb_checkpoints/
 __pycache__/
