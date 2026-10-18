@@ -1,0 +1,9 @@
+step,rows_remaining,removed
+Approved loans,970201,0
+30-year term,911243,58958
+Fixed rate,836428,74815
+Not interest-only,834944,1484
+No balloon payment,834839,105
+Valid interest rate,834352,487
+Valid loan-to-value,810854,23498
+Valid rate spread,810670,184
