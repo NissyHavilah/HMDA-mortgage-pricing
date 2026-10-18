@@ -9,10 +9,22 @@ Buying a home is one of the biggest financial decisions people make, but it is h
 
 **Who it's for:** people planning to buy a home, and anyone curious about how mortgage prices vary.
 
-## Questions
-1. Does a smaller down payment mean a higher price (rate spread), and does it differ by loan type (Conventional, FHA, VA)?
-2. Do closing costs differ across states, in dollars and as a share of the loan?
+## Primary question
+**How do a borrower's down payment, loan type and state relate to what they pay for a 30-year fixed-rate home-purchase mortgage?**
 
+Supporting questions:
+1. **Down payment:** Does a smaller down payment mean a higher price (rate spread), and does this differ for Conventional, FHA and VA loans?
+2. **Closing costs:** Do closing costs differ across states, in dollars and as a share of the loan?
+
+## What the app does
+The app has six tabs:
+- **Home:** who the app is for, how to use it, and key terms (rate spread, down payment, loan types).
+- **Borrowers like you:** pick a state, loan type and down payment to see the typical interest rate, rate spread and closing costs that similar borrowers paid.
+- **Down payment:** a chart of median rate spread by down payment for each loan type, filterable by state.
+- **Closing costs:** bar charts and a table comparing closing costs across the six states, filterable by loan type.
+- **Data & preparation:** the data source, how many loans were kept at each cleaning step, and the key decisions.
+- **Limitations:** what the data can and can't tell you.
+  
 ## Data
 - **Source:** Home Mortgage Disclosure Act (HMDA) 2025 loan-level data,
 - [CFPB HMDA Data Browser](https://ffiec.cfpb.gov/data-browser/)
