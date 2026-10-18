@@ -4,6 +4,11 @@
 
 A Streamlit data story for CMSE 830 (Fall 2026) using 2025 HMDA mortgage data from six US states.
 
+## Project purpose
+Buying a home is one of the biggest financial decisions people make, but it is hard to know what a "normal" mortgage price looks like. This app uses public 2025 loan records to show what borrowers actually paid, so home buyers can see how their down payment, loan type and state relate to the price of a 30-year fixed-rate mortgage.
+
+**Who it's for:** people planning to buy a home, and anyone curious about how mortgage prices vary.
+
 ## Questions
 1. Does a smaller down payment mean a higher price (rate spread), and does it differ by loan type (Conventional, FHA, VA)?
 2. Do closing costs differ across states, in dollars and as a share of the loan?
