@@ -65,13 +65,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## How to reproduce the data
-   1. Go to the [HMDA Data Browser](https://ffiec.cfpb.gov/data-browser/) and choose Year 2025, then each state (CA, MA, FL, TX, MI, OH).
-   2. Filter: Loan purpose = Home purchase. Download the CSV for each state.
-   3. Save the files in the project folder as `loan_purposes_1_state_XX.csv`.
-   4. In both notebooks, set `PROJECT_DIR` to your project folder.
-   5. Run notebook 1, then notebook 2.
-
 ## Limitations
 - No credit scores in HMDA, which strongly affect rates
 - Associations, not causes
