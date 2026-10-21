@@ -28,7 +28,7 @@ The app has six tabs:
 ## Data
 - **Source:** Home Mortgage Disclosure Act (HMDA) 2025 loan-level data,
 - [CFPB HMDA Data Browser](https://ffiec.cfpb.gov/data-browser/)
-- **States:** CA, MA (expensive), FL, TX (mid), MI, OH (low)
+- **States:** CA, MA (expensive), FL, TX (mid), MI, OH (low), grouped by state median home value
 - **Scope:** first-lien, home-purchase loans for a primary, site-built home
 - **Final app data:** 810,670 approved 30-year fixed-rate loans
 
