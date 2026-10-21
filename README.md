@@ -83,8 +83,10 @@ The app opens at `http://localhost:8501`. No data download is needed, because th
 To reproduce the data and analysis, first download the raw files (see **Data Access**), set `PROJECT_DIR` in both notebooks, then open them with `jupyter notebook` and run notebook 1, then notebook 2.
 
 ## Key Limitations
-- No credit scores in HMDA, which strongly affect rates
-- Associations, not causes
-- Past loans, not rate quotes
-- Six states only
+- **No credit scores.** HMDA data does not include credit scores, which strongly affect rates, so some differences may come from credit rather than down payment, loan type or state.
+- **Associations, not causes.** The app shows patterns in past loans; it cannot prove that one factor causes a higher price.
+- **Past loans, not rate quotes.** The numbers describe 2025 loans, not the rate someone would be offered today. Because with change in macro-economic data, these things are effected.
+- **Six states only.** Results may differ elsewhere. Both mid-tier states are in the South and both low-tier states in the Midwest, so tier differences may partly reflect region.
+- **Approved loans only.** Denied applicants have no price, so riskier borrowers are missing and prices may look lower than for a typical applicant.
+- **30-year fixed-rate only.** Other loan terms and adjustable-rate loans were removed as the dataset was huge, so results don't apply to them.
 
