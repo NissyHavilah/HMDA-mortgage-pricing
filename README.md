@@ -30,7 +30,21 @@ The app has six tabs:
 - [CFPB HMDA Data Browser](https://ffiec.cfpb.gov/data-browser/)
 - **States:** CA, MA (expensive), FL, TX (mid), MI, OH (low), grouped by state median home value
 - **Scope:** first-lien, home-purchase loans for a primary, site-built home
-- **Final app data:** 810,670 approved 30-year fixed-rate loans
+- **Observation unit:** One row is one approved 30-year fixed-rate home-purchase mortgage: it has state, loan type (Conventional, FHA or VA), interest rate, rate spread, total closing costs, loan amount, loan-to-value ratio and borrower income. Four fields were created during cleaning and added to each loan: the state’s home-price tier, a readable loan-type label, a down-payment group (from the loan-to-value ratio) and closing costs as a percentage of the loan.
+- **Final app data:** About 2.28 million raw application rows × 99 columns (six states, 2025), filtered to 810,670 approved 30-year fixed-rate loans × 11 columns used in the app.
+
+## Data Access
+**To run the app, you don't need to download anything.** The cleaned data (`data/processed/hmda_2025_pricing_clean.parquet`, 17.9 MB) is in the repo, so the app runs straight after cloning. No API key or login is needed.
+
+**To rebuild the data from scratch:**
+1. Go to the [CFPB HMDA Data Browser](https://ffiec.cfpb.gov/data-browser/) and choose **Year 2025**, then **State**: CA, MA, FL, TX, MI, OH (one at a time).
+2. Filter **Loan purpose = Home purchase** and download the CSV for each state.
+3. Save the six files in the project folder as `loan_purposes_1_state_XX.csv` (for example, `loan_purposes_1_state_CA.csv`).
+4. In both the notebooks, just set `PROJECT_DIR` to your project folder, then run notebook 1 and then notebook 2.
+
+- The original downloaded files are too big for GitHub, so they aren’t included here.
+- Notebook 1 counts the rows in each file. If a count is smaller than the number the HMDA website shows, the download didn’t finish. Download that state again, and delete its old file in data/raw/ before you re-run.
+- The data/raw/ and data/interim/ folders aren’t on GitHub either. The notebooks create them for you when you run them.
 
 ## Repository contents
 | File | What it does |
