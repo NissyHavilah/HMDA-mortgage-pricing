@@ -2,12 +2,12 @@
 
 **Live app:** https://hmda-mortgage-pricing.streamlit.app/
 
-A Streamlit data story for CMSE 830 (Fall 2026) using 2025 HMDA mortgage data from six US states.
+A Streamlit app that helps first-time home buyers see what borrowers like them actually paid for a mortgage, based on their down payment, loan type and the state where they want to buy their home.
 
 ## Project purpose
-Buying a first home is one of the very important and biggest financial decision people make, but it is hard to know and understand how the mortgage price looks like. This app uses Home Mortgage Disclosure Act (HMDA) data for the year 2025 to show what other borrowers actually paid. By using this app a user can see how different factors like down payment, loan type and state relate to the mortgage price. This app was especially built to help first time home buyers who are interested to buy a home and ready to pay a 30-year fixed rate mortgage.
+Buying a first home is one of the very important and biggest financial decision people make, but it is hard to know and understand how the mortgage price looks like. This app uses Home Mortgage Disclosure Act (HMDA) data for the year 2025 to show what other borrowers actually paid. By using this app a user can see how different factors like down payment, loan type and state relate to the mortgage price. This app was especially built for people who are interested to buy their first home and ready to pay a 30-year fixed rate mortgage.
 
-**Who it's for:** people planning to buy a home, and anyone curious about how mortgage prices vary.
+**Who it's for:** people planning to buy their first home, and anyone curious about how mortgage prices vary.
 
 ## Primary question
 **How do a borrower's down payment, loan type and state relate to what they pay for a 30-year fixed-rate home-purchase mortgage?**
