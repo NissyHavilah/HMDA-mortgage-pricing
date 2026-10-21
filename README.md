@@ -59,13 +59,30 @@ The app has six tabs:
 
 Raw and interim data are not in the repo because they are too large.
 
-## How to run the app locally
+## Setup and Run
+Requires Python 3.10+.
+
 ```
+# 1. Clone the repository
+git clone https://github.com/YOUR-USERNAME/hmda-mortgage-pricing.git
+cd hmda-mortgage-pricing
+
+# 2. (Optional) Create and activate a virtual environment
+python -m venv .venv
+.venv\Scripts\activate           # Mac/Linux: source .venv/bin/activate
+
+# 3. Install dependencies
 pip install -r requirements.txt
+
+# 4. Run the app
 streamlit run app.py
 ```
 
-## Limitations
+The app opens at `http://localhost:8501`. No data download is needed, because the cleaned data is already in the repo.
+
+To reproduce the data and analysis, first download the raw files (see **Data Access**), set `PROJECT_DIR` in both notebooks, then open them with `jupyter notebook` and run notebook 1, then notebook 2.
+
+## Key Limitations
 - No credit scores in HMDA, which strongly affect rates
 - Associations, not causes
 - Past loans, not rate quotes
