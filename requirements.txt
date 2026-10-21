@@ -1,4 +1,5 @@
-pandas
+pandas>=2.0
 pyarrow
-matplotlib
+matplotlib>=3.9
 streamlit
+jupyter
