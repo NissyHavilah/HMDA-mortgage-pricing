@@ -54,8 +54,8 @@ The app has six tabs:
 | `CMSE_HMDA_project_notebook_2.ipynb` | Cleans approved loans, creates new features, explores both questions |
 | `data/processed/hmda_2025_pricing_clean.parquet` | Cleaned data used by the app |
 | `data/funnel_scope.csv`, `data/funnel_cleaning.csv` | Number of rows kept at each filtering step |
-| `requirements.txt` | Python packages needed to run the app |
-| `AI_DISCLOSURE.md` | How I used AI tools in this project |
+| `requirements.txt` | Python dependencies|
+| `AI_DISCLOSURE.md` | Ai-use disclosure |
 
 Raw and interim data are not in the repo because they are too large.
 
