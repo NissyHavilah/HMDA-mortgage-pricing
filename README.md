@@ -64,7 +64,7 @@ Requires Python 3.10+.
 
 ```
 # 1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/hmda-mortgage-pricing.git
+git clone https://github.com/NissyHavilah/hmda-mortgage-pricing.git
 cd hmda-mortgage-pricing
 
 # 2. (Optional) Create and activate a virtual environment
