@@ -18,12 +18,18 @@ Supporting questions:
 
 ## What the app does
 The app has six tabs:
-- **Home:** who the app is for, how to use it, and key terms (rate spread, down payment, loan types).
-- **Borrowers like you:** pick a state, loan type and down payment to see the typical interest rate, rate spread and closing costs that similar borrowers paid.
+- **Home:** what the app is for, how to use it, and what the key words mean.(rate spread, down payment, loan types).
+- **Borrowers like you:** Pick a state (U.S state), loan type and down payment and see what people like you paid.
 - **Down payment:** a chart of median rate spread by down payment for each loan type, filterable by state.
 - **Closing costs:** bar charts and a table comparing closing costs across the six states, filterable by loan type.
 - **Data & preparation:** the data source, how many loans were kept at each cleaning step, and the key decisions.
 - **Limitations:** what the data can and can't tell you.
+
+
+Down payment: see whether a smaller down payment means a higher price, for each loan type.
+Closing costs: compare the fees people paid in each of the six states.
+Data & preparation: where the data comes from and how it was cleaned.
+Limitations: what this app can and can’t tell you.
   
 ## Data
 - **Source:** Home Mortgage Disclosure Act (HMDA) 2025 loan-level data,
