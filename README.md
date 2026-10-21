@@ -49,11 +49,13 @@ The app has six tabs:
 ## Repository contents
 | File | What it does |
 |---|---|
-| `CMSE_HMDA_data_preparation_steps_notebook_1.ipynb` | Loads raw CSVs, checks row counts, applies scope filters |
-| `CMSE_HMDA_project_notebook_2.ipynb` | Cleans approved loans, creates features, EDA for both questions |
 | `app.py` | Streamlit app |
+| `CMSE_HMDA_data_preparation_steps_notebook_1.ipynb` | Loads the raw CSVs, checks row counts, applies scope filters |
+| `CMSE_HMDA_project_notebook_2.ipynb` | Cleans approved loans, creates new features, explores both questions |
 | `data/processed/hmda_2025_pricing_clean.parquet` | Cleaned data used by the app |
-| `data/funnel_scope.csv`, `data/funnel_cleaning.csv` | Row counts at each filtering step |
+| `data/funnel_scope.csv`, `data/funnel_cleaning.csv` | Number of rows kept at each filtering step |
+| `requirements.txt` | Python packages needed to run the app |
+| `AI_DISCLOSURE.md` | How I used AI tools in this project |
 
 Raw and interim data are not in the repo because they are too large.
 
