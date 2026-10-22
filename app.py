@@ -9,7 +9,7 @@ import streamlit as st
 # ---------------------------------------------------------------
 st.set_page_config(page_title="What Makes a Mortgage Cost More?", layout="wide")
 
-DATA_DIR = Path(__file__).parent / "data"   # the data folder next to app.py
+DATA_DIR = Path(__file__).parent / "data"   
 STATES = ["CA", "MA", "FL", "TX", "MI", "OH"]
 STATE_NAMES = {"CA": "California", "MA": "Massachusetts", "FL": "Florida",
                "TX": "Texas", "MI": "Michigan", "OH": "Ohio"}
@@ -17,8 +17,8 @@ STATE_TIERS = {"CA": "Expensive", "MA": "Expensive", "FL": "Mid",
                "TX": "Mid", "MI": "Low", "OH": "Low"}
 LOAN_TYPES = ["Conventional", "FHA", "VA"]
 DOWN_PAYMENTS = ["20%+ down", "10-20% down", "5-10% down", "3-5% down", "Under 3% down"]
-COLORS = ["#0072B2", "#E69F00", "#009E73"]   # color-blind-safe colors
-MIN_LOANS = 30                               # hide results for very small groups
+COLORS = ["#0072B2", "#E69F00", "#009E73"]   # I used color-blind-safe colors
+MIN_LOANS = 30                               
 
 
 # ---------------------------------------------------------------
