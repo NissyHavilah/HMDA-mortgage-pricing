@@ -226,8 +226,8 @@ with tab_data:
         "- **Download checked against the source:** the first California and Texas files were incomplete "
         "and were downloaded again.\n"
         "- **No imputation:** denied applications have no price by design, so they are not filled in.\n"
-        "- **Small lenders kept:** lenders exempt from reporting some fields are kept, so the data isn't "
-        "biased toward big banks.\n"
+        "- **Exempt lenders removed:** small lenders that don't report some fields were removed, "
+           "to keep only confirmed standard loans.\n"
         "- **Medians, not means:** prices are skewed, so medians describe a typical borrower better.")
 
 
